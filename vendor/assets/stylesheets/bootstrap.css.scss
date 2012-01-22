@@ -53,7 +53,8 @@
 // Components: Misc
 @import "bootstrap/thumbnails";
 @import "bootstrap/labels";
-@import "bootstrap/progress-bars";
+//commented out because with Rails 3.2 got sass error about transparent
+//@import "bootstrap/progress-bars";
 
 // Utility classes
 @import "bootstrap/utilities"; // Has to be last to override when necessary
